@@ -96,7 +96,6 @@ const db = require("../models/index");
 const User = db.user;
 
 const verifyToken = (req, res, next) => {
-  //let token = req.headers["x-access-token"];
   let token = req.cookies.jwt;
 
   if (!token) {

@@ -1,20 +1,3 @@
-/*
-export function allAccess(req, res) {
-  res.status(200).send("Public Content.");
-}
-
-export function userBoard(req, res) {
-  res.status(200).send("User Content.");
-}
-
-export function adminBoard(req, res) {
-  res.status(200).send("Admin Content.");
-}
-
-export function moderatorBoard(req, res) {
-  res.status(200).send("Moderator Content.");
-}
-*/
 const db = require("../models/index");
 const Title = db.title;
 const Sharing = db.sharing;
@@ -60,13 +43,6 @@ exports.createSharing = (req, res) => {
 exports.updateSharing = (req, res) => {
   // Get sharing by sharingId
   Sharing.findByPk(req.params.id)
-    /*
-    Sharing.findOne({
-      where: {
-        id: req.body.id
-      }
-    })
-    */
     .then(sharing => {
       // Save Sharing to Database
       if (req.userId == sharing.userId) {
