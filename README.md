@@ -14,11 +14,11 @@
 ##### Get all titles or sharings with keywords, pages, limits and sorting
 ## Usage
 ### POST "/api/auth/signup"
- {
+{
   "username": string,
-#####   "email": string,
-#####   "password": string
-##### }
+  "email": string,
+  "password": string
+}
 ### POST "/api/auth/signin"
 ##### {
 #####   "username": string,
