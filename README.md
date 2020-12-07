@@ -15,7 +15,7 @@
 ## Usage
 ### POST "/api/auth/signup"
 ##### {
-#####   "username": string,
+#####   * "username": string,
 #####   "email": string,
 #####   "password": string
 ##### }
