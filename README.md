@@ -1,9 +1,3 @@
-/ changePassword with oldpassword and password length>=6
-/ edit roles
-/ search with key words(search=)
-/ sort(sort=sharingstring:desc)
-X forget password with sending email?
-
 # REST API with POSTGRESQL Database
 ## Node.js Express JWT Sequelize
 ### Babel, Nodemon, Bcryptjs, Cookie-parser, CORS, Dotenv
