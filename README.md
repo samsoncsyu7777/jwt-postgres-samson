@@ -21,7 +21,7 @@
 }
 ### POST "/api/auth/signin"
 ##### {
-#####   "username": string,
+#####   "username": string,
 #####   "password": string
 ##### }
 ### POST "/api/auth/enableuser" with "admin" role
